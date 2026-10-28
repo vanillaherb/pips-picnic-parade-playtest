@@ -1,0 +1,12 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="game-preview-mode" content="fixed-phone-v1"><title>手机试玩</title>
+<style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#20242c}
+body{display:grid;place-items:center}#phone-shell{position:relative;overflow:hidden;border-radius:12px;outline:1px solid #515762;box-shadow:0 12px 48px #0008;background:#fff}
+#phone-game{position:absolute;left:0;top:0;border:0;display:block;transform-origin:top left;background:#fff}</style>
+</head><body><main id="phone-shell" aria-label="手机尺寸游戏试玩"><iframe id="phone-game" title="游戏试玩" allow="autoplay; gamepad; fullscreen 'none'"></iframe></main>
+<script>(()=>{const width=390,height=844,shell=document.getElementById('phone-shell'),frame=document.getElementById('phone-game');
+frame.style.width=width+'px';frame.style.height=height+'px';
+const game=new URL('audio-v9/index.html',location.href);game.search=location.search;game.searchParams.set('__phone_game','1');frame.src=game.pathname+game.search+location.hash;
+function fit(){const scale=Math.min(1,Math.max(1,innerWidth-32)/width,Math.max(1,innerHeight-32)/height);shell.style.width=width*scale+'px';shell.style.height=height*scale+'px';frame.style.transform='scale('+scale+')';window.__phonePreview={policy:'fixed-phone-v1',width,height,scale};}
+addEventListener('resize',fit);fit();})();</script></body></html>

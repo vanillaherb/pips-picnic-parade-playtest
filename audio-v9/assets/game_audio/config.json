@@ -1,0 +1,207 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "game_audio",
+    "deps": [],
+    "uuids": [
+        "085bd45f-5f68-44e4-8152-580ecc70c896",
+        "0d9fed95-805f-4a0b-8285-d652b5f0fb72",
+        "2bd8460d-a0ae-4aec-8ab9-97cd185b8cf5",
+        "2fcd483b-422b-4d6b-8703-fb7d2f0ac34e",
+        "360e9b21-b94e-4ad5-a893-58d895f3c280",
+        "366d4120-70a6-41a4-9c48-b9c802b641b9",
+        "39f94377-500d-465a-9e4f-2ac4726eb7b5",
+        "447d2215-a7b2-4f37-aa25-63709928754f",
+        "45518d32-b791-4d9a-b769-3afb83b8177e",
+        "4a7a8db2-45d5-460c-9333-fea20d9f0c4c",
+        "4d7d7453-f33f-469f-bab4-4725c3b5788a",
+        "50dcae49-77da-44d7-aaf3-2bd652a44621",
+        "5bc8462f-d261-4b0d-81bd-7cbb10617d78",
+        "64536ed4-ec31-451b-aae9-9559e802182b",
+        "68faddd8-4ecf-4ed3-93aa-1b2d99b7accf",
+        "6e98dbf8-6658-442e-b6c1-5ab2386a20fe",
+        "71d04d04-156f-4c54-abca-ad112397f3ae",
+        "79b71bdc-646c-4712-bf84-08dbe2f19c76",
+        "7ef202bd-9cb8-4410-a27c-bd3411f09f15",
+        "90877d2a-bad0-43f2-a96a-31201e0cf79a",
+        "9ed41e2f-526d-4be5-a490-49802019c15f",
+        "a005a068-4a33-4aa9-8124-234044380e57",
+        "a33b35a9-27ac-484c-830f-b96cbe3c1f1e",
+        "b0bfa588-792f-459d-a23a-214ca05a2570",
+        "c036530b-ac5b-4459-b4ce-0b8ed1095315",
+        "c78b2e78-d2a4-4bd3-84ea-3c747fc90bbe",
+        "c889a318-e69f-4aa6-83a7-84dc3d47f0b8",
+        "d571fbb4-7d05-4de3-9701-52d09ad1589a",
+        "e8bef92a-c934-4433-8c67-200f2c1067e1",
+        "eb7a0261-82c1-4ece-b0d0-15585384ef88",
+        "fd55164f-382c-4be1-b7fd-f46f141f0aef"
+    ],
+    "paths": {
+        "c036530b-ac5b-4459-b4ce-0b8ed1095315": [
+            "audio/bgm/bgm_game",
+            "cc.AudioClip",
+            1
+        ],
+        "9ed41e2f-526d-4be5-a490-49802019c15f": [
+            "audio/bgm/bgm_menu",
+            "cc.AudioClip",
+            1
+        ],
+        "c889a318-e69f-4aa6-83a7-84dc3d47f0b8": [
+            "audio/bgm/jingle_lose",
+            "cc.AudioClip",
+            1
+        ],
+        "eb7a0261-82c1-4ece-b0d0-15585384ef88": [
+            "audio/bgm/jingle_win",
+            "cc.AudioClip",
+            1
+        ],
+        "360e9b21-b94e-4ad5-a893-58d895f3c280": [
+            "audio/sfx/sfx_basket_arrive",
+            "cc.AudioClip",
+            1
+        ],
+        "2bd8460d-a0ae-4aec-8ab9-97cd185b8cf5": [
+            "audio/sfx/sfx_coin_1",
+            "cc.AudioClip",
+            1
+        ],
+        "71d04d04-156f-4c54-abca-ad112397f3ae": [
+            "audio/sfx/sfx_coin_2",
+            "cc.AudioClip",
+            1
+        ],
+        "fd55164f-382c-4be1-b7fd-f46f141f0aef": [
+            "audio/sfx/sfx_coin_3",
+            "cc.AudioClip",
+            1
+        ],
+        "64536ed4-ec31-451b-aae9-9559e802182b": [
+            "audio/sfx/sfx_combo_1",
+            "cc.AudioClip",
+            1
+        ],
+        "e8bef92a-c934-4433-8c67-200f2c1067e1": [
+            "audio/sfx/sfx_combo_2",
+            "cc.AudioClip",
+            1
+        ],
+        "68faddd8-4ecf-4ed3-93aa-1b2d99b7accf": [
+            "audio/sfx/sfx_combo_3",
+            "cc.AudioClip",
+            1
+        ],
+        "39f94377-500d-465a-9e4f-2ac4726eb7b5": [
+            "audio/sfx/sfx_combo_4",
+            "cc.AudioClip",
+            1
+        ],
+        "4a7a8db2-45d5-460c-9333-fea20d9f0c4c": [
+            "audio/sfx/sfx_combo_5",
+            "cc.AudioClip",
+            1
+        ],
+        "2fcd483b-422b-4d6b-8703-fb7d2f0ac34e": [
+            "audio/sfx/sfx_critter_halt",
+            "cc.AudioClip",
+            1
+        ],
+        "45518d32-b791-4d9a-b769-3afb83b8177e": [
+            "audio/sfx/sfx_honey_splash",
+            "cc.AudioClip",
+            1
+        ],
+        "b0bfa588-792f-459d-a23a-214ca05a2570": [
+            "audio/sfx/sfx_invalid",
+            "cc.AudioClip",
+            1
+        ],
+        "50dcae49-77da-44d7-aaf3-2bd652a44621": [
+            "audio/sfx/sfx_march_step_1",
+            "cc.AudioClip",
+            1
+        ],
+        "366d4120-70a6-41a4-9c48-b9c802b641b9": [
+            "audio/sfx/sfx_march_step_2",
+            "cc.AudioClip",
+            1
+        ],
+        "0d9fed95-805f-4a0b-8285-d652b5f0fb72": [
+            "audio/sfx/sfx_march_step_3",
+            "cc.AudioClip",
+            1
+        ],
+        "4d7d7453-f33f-469f-bab4-4725c3b5788a": [
+            "audio/sfx/sfx_pastry_pickup_1",
+            "cc.AudioClip",
+            1
+        ],
+        "a005a068-4a33-4aa9-8124-234044380e57": [
+            "audio/sfx/sfx_pastry_pickup_2",
+            "cc.AudioClip",
+            1
+        ],
+        "d571fbb4-7d05-4de3-9701-52d09ad1589a": [
+            "audio/sfx/sfx_pastry_pickup_3",
+            "cc.AudioClip",
+            1
+        ],
+        "c78b2e78-d2a4-4bd3-84ea-3c747fc90bbe": [
+            "audio/sfx/sfx_revive_chime",
+            "cc.AudioClip",
+            1
+        ],
+        "085bd45f-5f68-44e4-8152-580ecc70c896": [
+            "audio/sfx/sfx_rolling_pin_rumble",
+            "cc.AudioClip",
+            1
+        ],
+        "447d2215-a7b2-4f37-aa25-63709928754f": [
+            "audio/sfx/sfx_star_1",
+            "cc.AudioClip",
+            1
+        ],
+        "79b71bdc-646c-4712-bf84-08dbe2f19c76": [
+            "audio/sfx/sfx_star_2",
+            "cc.AudioClip",
+            1
+        ],
+        "90877d2a-bad0-43f2-a96a-31201e0cf79a": [
+            "audio/sfx/sfx_star_3",
+            "cc.AudioClip",
+            1
+        ],
+        "7ef202bd-9cb8-4410-a27c-bd3411f09f15": [
+            "audio/sfx/sfx_ui_click_1",
+            "cc.AudioClip",
+            1
+        ],
+        "5bc8462f-d261-4b0d-81bd-7cbb10617d78": [
+            "audio/sfx/sfx_ui_click_2",
+            "cc.AudioClip",
+            1
+        ],
+        "a33b35a9-27ac-484c-830f-b96cbe3c1f1e": [
+            "audio/sfx/sfx_ui_click_3",
+            "cc.AudioClip",
+            1
+        ],
+        "6e98dbf8-6658-442e-b6c1-5ab2386a20fe": [
+            "audio/sfx/sfx_whisk_spin",
+            "cc.AudioClip",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}
